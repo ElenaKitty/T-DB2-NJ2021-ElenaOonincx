@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj",
+        "projectName": "MusicPlayerTests",
+        "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj",
+        "packagesPath": "C:\\Users\\joeyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joeyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj": {
+                "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj",
+        "projectName": "MusicPlayerChallenge",
+        "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\t-db2-db01t-joeyoonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
