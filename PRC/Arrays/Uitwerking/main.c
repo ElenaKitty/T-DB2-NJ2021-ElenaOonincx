@@ -51,7 +51,7 @@ int randomNumber(int numberCap)
 }
 
 //Loop through a certain ammount and then add 1 to that array index.
-void LoopAddIndex(int * arrayPointer, int arrayLength, int ammount, int maxNumber)
+void CountIndex(int * arrayPointer, int arrayLength, int ammount, int maxNumber)
 {
     for(int i = 0; i < ammount; i++)
     {
@@ -59,7 +59,8 @@ void LoopAddIndex(int * arrayPointer, int arrayLength, int ammount, int maxNumbe
         arrayPointer[number] = arrayPointer[number] + 1;
     }
 }
- void BubbleSort(int * arrayPointer, int arrayLength) 
+//standard bubble sort
+void BubbleSort(int * arrayPointer, int arrayLength) 
  {
     for (int j = 0; j < arrayLength; j++) 
     {
@@ -74,6 +75,36 @@ void LoopAddIndex(int * arrayPointer, int arrayLength, int ammount, int maxNumbe
        }
     }
  }
+
+double CalculateAverage(int * arrayPointer, int arrayLength)
+{
+    int total = TotalArray(arrayPointer, arrayLength);
+    int average = total / arrayLength;
+    return average;
+}
+double CalculateMiddle(int *arrayPointer, int arrayLength)
+{
+    int middleNumber = 0;
+    BubbleSort(arrayPointer, arrayLength);
+    int min = arrayPointer[0];
+    int max = arrayPointer[arrayLength-1];
+
+    middleNumber = min + (max-min) / 2;
+    return middleNumber;
+}
+int CalculateModus(int * arrayPointer, int arrayLength)
+{
+    int modus = 0;
+    BubbleSort(arrayPointer, arrayLength);
+    for(int i = 0; i < arrayLength; i++)
+    {
+        if(arrayPointer[i] > modus)
+        {
+            modus = arrayPointer[i];
+        }
+    }
+    return modus;
+}
 
 int main(int argc, char *argv[])
 {
@@ -97,12 +128,12 @@ int main(int argc, char *argv[])
     //Assignment 4 
     ZeroNumber(worstArray, worstArrayLength);
     printf("voting started... \n");
-    LoopAddIndex(worstArray, worstArrayLength, 40, 10);
+    CountIndex(worstArray, worstArrayLength, 40, 10);
     PrintArrayIncrem(worstArray, worstArrayLength);
 
     //Assignment 5
     printf("Throwing 120.000.000 times the dice... \n");
-    LoopAddIndex(diceArray, diceArrayLength,120000000, 6);
+    CountIndex(diceArray, diceArrayLength,120000000, 6);
     PrintArrayIncrem(diceArray, diceArrayLength);
 
     //Assignment 6
@@ -110,7 +141,12 @@ int main(int argc, char *argv[])
     PrintArray(worstArray, worstArrayLength);
 
     //Assignment 7
-    
+    InitArray(numberArray, arrayLength);
+    printf("The average number is %g\n", CalculateAverage(numberArray, arrayLength));
+    printf("The middle number is %g\n", CalculateMiddle(numberArray, arrayLength));
+    printf("The modus is %d\n", CalculateModus(worstArray, worstArrayLength));
+
+
 }
 
 
