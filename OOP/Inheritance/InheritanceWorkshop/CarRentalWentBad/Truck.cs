@@ -21,7 +21,7 @@ namespace CarRentalWentBad
         /// <summary>
         /// The licence plate of the truck
         /// </summary>
-        public int LicencePlate { get; private set; }
+        public string LicencePlate { get; private set; }
 
         /// <summary>
         /// The total number of kilometers the truck has driven.
@@ -59,7 +59,7 @@ namespace CarRentalWentBad
         /// <param name="licencePlate">The licence plate</param>
         /// <param name="cargoSpace">The cargo space (liters)</param>
         /// <param name="maxWeigth">The weight the truck can carry (kg)</param>
-        public Truck(string manufacturer, string model, int licencePlate, int cargoSpace, int maxWeigth)
+        public Truck(string manufacturer, string model, string licencePlate, int cargoSpace, int maxWeigth)
         {
             Manufacturer = manufacturer;
             Model = model;

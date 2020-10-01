@@ -1,0 +1,9 @@
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\bin\Debug\CarRentalWentBad.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\bin\Debug\CarRentalWentBad.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\bin\Debug\CarRentalWentBad.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\obj\Debug\CarRentalWentBad.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\obj\Debug\CarRentalWentBad.Properties.Resources.resources
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\obj\Debug\CarRentalWentBad.csproj.GenerateResource.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\obj\Debug\CarRentalWentBad.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\obj\Debug\CarRentalWentBad.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Inheritance\InheritanceWorkshop\CarRentalWentBad\obj\Debug\CarRentalWentBad.pdb

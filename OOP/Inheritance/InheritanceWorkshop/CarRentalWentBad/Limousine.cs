@@ -21,7 +21,7 @@ namespace CarRentalWentBad
         /// <summary>
         /// The licence plate of the limousine
         /// </summary>
-        public int LicencePlate { get; private set; }
+        public string LicencePlate { get; private set; }
 
         /// <summary>
         /// The total number of kilometers the limousine has driven.
@@ -53,7 +53,7 @@ namespace CarRentalWentBad
         /// <param name="model">The model of the limousine</param>
         /// <param name="licencePlate">The licence plate</param>
         /// <param name="hasMinibar">Does the limousine have a minibar for cold drinks?</param>
-        public Limousine(string manufacturer, string model, int licencePlate, bool hasMiniBar)
+        public Limousine(string manufacturer, string model, string licencePlate, bool hasMiniBar)
         {
             Manufacturer = manufacturer;
             Model = model;

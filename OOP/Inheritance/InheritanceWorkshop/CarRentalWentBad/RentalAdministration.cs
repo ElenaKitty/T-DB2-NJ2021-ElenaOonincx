@@ -94,7 +94,7 @@ namespace CarRentalWentBad
         /// <param name="licencePlate">The licence plate of the car to rent</param>
         /// <param name="rentalDate">The start date for the rental</param>
         /// <returns>true if the car was available for renting, false otherwise.</returns>
-        public bool RentCar(int licencePlate, SimpleDate rentalDate)
+        public bool RentCar(string licencePlate, SimpleDate rentalDate)
         {
             // Try to find the car with the given licence plate. Is it a Sedan?
             Sedan foundSedan = null;
@@ -166,7 +166,7 @@ namespace CarRentalWentBad
         /// Please note that returning as number less than zero for error situations is NOT(!!!)
         /// clean coding in this case. Later on you will learn to do this in a better fashion (Exceptions!)
         /// </returns>
-        public decimal ReturnCar(int licencePlate, SimpleDate returnDate, int kilometers)
+        public decimal ReturnCar(string licencePlate, SimpleDate returnDate, int kilometers)
         {
             // Try to find the car with the given licence plate. Is it a Sedan?
             Sedan foundSedan = null;

@@ -33,10 +33,10 @@ namespace CarRentalWentBad
         /// </summary>
         private void AddSomeCars()
         {
-            administration.Add(new Sedan("Opel", "Insignia 2.2L", 123456, false));
-            administration.Add(new Sedan("Skoda", "Oktavia 1.8T", 234567, true));
-            administration.Add(new Truck("DAF", "LF45 FR118", 345678, 50000, 8000));
-            administration.Add(new Limousine("Lincoln", "Learjet", 456789, true));
+            administration.Add(new Sedan("Opel", "Insignia 2.2L", "123456", false));
+            administration.Add(new Sedan("Skoda", "Oktavia 1.8T", "234567", true));
+            administration.Add(new Truck("DAF", "LF45 FR118", "345678", 50000, 8000));
+            administration.Add(new Limousine("Lincoln", "Learjet", "456789", true));
             UpdateAvailableCarListAndRentedCarLists();
         }
 
@@ -48,12 +48,11 @@ namespace CarRentalWentBad
         /// <param name="e"></param>
         private void addTruckButton_Click(object sender, EventArgs e)
         {
-            int licencePlate;
+            string licencePlate = licencePlateTextBox.Text;
             int cargoSpace;
             int maxWeight;
             if (manufacturerTextBox.Text.Trim().Length != 0
                 && modelTextBox.Text.Trim().Length != 0
-                && Int32.TryParse(licencePlateTextBox.Text, out licencePlate)
                 && Int32.TryParse(cargoSpaceTextBox.Text, out cargoSpace)
                 && Int32.TryParse(maxWeightTextBox.Text, out maxWeight))
             {
@@ -76,23 +75,14 @@ namespace CarRentalWentBad
         /// <param name="e"></param>
         private void addLimousineButton_Click(object sender, EventArgs e)
         {
-            int licencePlate;
-            if (manufacturerTextBox.Text.Trim().Length != 0
-                && modelTextBox.Text.Trim().Length != 0
-                && Int32.TryParse(licencePlateTextBox.Text, out licencePlate)
-                && (miniBarComboBox.Text == "Yes" || miniBarComboBox.Text == "No"))
-            {
-                bool hasMiniBar = miniBarComboBox.Text == "Yes";
+            string licencePlate = licencePlateTextBox.Text;
+            bool hasMiniBar = miniBarComboBox.Text == "Yes";
                 Limousine limousine = new Limousine(manufacturerTextBox.Text, modelTextBox.Text,
                                                     licencePlate, hasMiniBar);
                 administration.Add(limousine);
                 UpdateAvailableCarListAndRentedCarLists();
-            }
-            else
-            {
-                MessageBox.Show("Not all data of the limousine is entered or the data entered has the wrong format.");
-            }
         }
+
 
         /// <summary>
         /// Adds a sedan to the administration
@@ -101,23 +91,14 @@ namespace CarRentalWentBad
         /// <param name="e"></param>
         private void addSedanButton_Click(object sender, EventArgs e)
         {
-            int licencePlate;
-            if (manufacturerTextBox.Text.Trim().Length != 0
-                && modelTextBox.Text.Trim().Length != 0
-                && Int32.TryParse(licencePlateTextBox.Text, out licencePlate)
-                && (towBarComboBox.Text == "Yes" || towBarComboBox.Text == "No"))
-            {
-                bool hasTowBar = towBarComboBox.Text == "Yes";
+            string licencePlate = licencePlateTextBox.Text;
+            bool hasTowBar = towBarComboBox.Text == "Yes";
                 Sedan sedan = new Sedan(manufacturerTextBox.Text, modelTextBox.Text,
                                         licencePlate, hasTowBar);
                 administration.Add(sedan);
                 UpdateAvailableCarListAndRentedCarLists();
             }
-            else
-            {
-                MessageBox.Show("Not all data of the sedan is entered or the data entered has the wrong format.");
-            }
-        }
+           
 
         /// <summary>
         /// Updates the GUI list of available and rented cars.
@@ -174,26 +155,20 @@ namespace CarRentalWentBad
         /// <param name="e"></param>
         private void rentCarButton_Click(object sender, EventArgs e)
         {
-            int licencePlate;
-            if (Int32.TryParse(rentalLicencePlateTextBox.Text, out licencePlate))
+            string licencePlate = licencePlateTextBox.Text;
+    
+            SimpleDate date = new SimpleDate(rentalDateTimePicker.Value.Day,
+                                                rentalDateTimePicker.Value.Month,
+                                                rentalDateTimePicker.Value.Year);
+            bool isRented = administration.RentCar(licencePlate, date);
+            if (isRented)
             {
-                SimpleDate date = new SimpleDate(rentalDateTimePicker.Value.Day,
-                                                 rentalDateTimePicker.Value.Month,
-                                                 rentalDateTimePicker.Value.Year);
-                bool isRented = administration.RentCar(licencePlate, date);
-                if (isRented)
-                {
-                    UpdateAvailableCarListAndRentedCarLists();
-                }
-                else
-                {
-                    MessageBox.Show("There's no car with licence plate: '"
-                                    + licencePlate + "' or the car is already rented.");
-                }
+                UpdateAvailableCarListAndRentedCarLists();
             }
             else
             {
-                MessageBox.Show("The licence plate has the wrong format.");
+                MessageBox.Show("There's no car with licence plate: '"
+                                + licencePlate + "' or the car is already rented.");
             }
         }
 
@@ -204,10 +179,9 @@ namespace CarRentalWentBad
         /// <param name="e"></param>
         private void returnCarButton_Click(object sender, EventArgs e)
         {
-            int licencePlate;
+            string licencePlate = licencePlateTextBox.Text;
             int kilometers;
-            if (Int32.TryParse(returnLicencePlateTextBox.Text, out licencePlate)
-                && Int32.TryParse(returnKilometersTextBox.Text, out kilometers))
+            if (Int32.TryParse(returnKilometersTextBox.Text, out kilometers))
             {
                 SimpleDate date = new SimpleDate(returnDateTimePicker.Value.Day,
                     returnDateTimePicker.Value.Month,

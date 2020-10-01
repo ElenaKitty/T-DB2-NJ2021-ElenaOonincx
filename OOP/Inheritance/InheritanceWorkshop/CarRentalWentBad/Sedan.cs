@@ -21,7 +21,7 @@ namespace CarRentalWentBad
         /// <summary>
         /// The licence plate of the sedan
         /// </summary>
-        public int LicencePlate { get; private set; }
+        public string LicencePlate { get; private set; }
 
         /// <summary>
         /// The total number of kilometers the sedan has driven.
@@ -53,7 +53,7 @@ namespace CarRentalWentBad
         /// <param name="model">The model of the sedan</param>
         /// <param name="licencePlate">The licence plate</param>
         /// <param name="hasTowbar">Does the sedan have a towbar for towing.</param>
-        public Sedan(string manufacturer, string model, int licencePlate, bool hasTowBar)
+        public Sedan(string manufacturer, string model, string licencePlate, bool hasTowBar)
         {
             Manufacturer = manufacturer;
             Model = model;

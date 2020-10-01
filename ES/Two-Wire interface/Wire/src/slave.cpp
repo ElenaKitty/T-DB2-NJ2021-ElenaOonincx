@@ -1,6 +1,11 @@
 #include <Arduino.h>
 #include <Wire.h>
 
+void requestEvent()
+{
+  
+}
+
 void receiveEvent(int howMany)
 {
   while(1 < Wire.available()) // loop through all but the last
@@ -15,8 +20,9 @@ void receiveEvent(int howMany)
 void setup()
 {
   Wire.begin(4);                // join i2c bus with address #4
+  Wire.onRequest(requestEvent);
   Wire.onReceive(receiveEvent); // register event
-  Serial.begin(115200);           // start serial for output
+  Serial.begin(115200);             // start serial for output
 }
 
 void loop()
