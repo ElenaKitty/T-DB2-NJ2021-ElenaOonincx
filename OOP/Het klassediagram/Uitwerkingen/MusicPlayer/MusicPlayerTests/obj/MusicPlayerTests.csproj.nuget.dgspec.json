@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj": {}
+    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj": {
+    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj",
+        "projectUniqueName": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj",
         "projectName": "MusicPlayerTests",
-        "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj",
+        "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj",
         "packagesPath": "C:\\Users\\joeyo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\obj\\",
+        "outputPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayerTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj": {
-                "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj"
+              "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj": {
+                "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj"
               }
             }
           }
@@ -79,15 +79,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj": {
+    "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj",
         "projectName": "MusicPlayerChallenge",
-        "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj"
+        "projectPath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayer\\MusicPlayerChallenge.csproj"
       },
       "frameworks": {
         "net472": {}

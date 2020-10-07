@@ -22,10 +22,10 @@ namespace AnimalShelter
         /// <param name="name">The name of the animal.</param>
         /// <param name="badHabits">The bad habbits of the cat (e.g. "scratches the couch")
         ///                         or null if none.</param>
-        public Cat(int chipRegistrationNumber, SimpleDate dateOfBirth,
-                   string name, string badHabits)
+        public Cat(int chipRegistrationNumber, SimpleDate dateOfBirth, string name, string badHabits)
+            :base(chipRegistrationNumber, dateOfBirth, name)
         {
-            // TODO: Modify the constructor. Make sure it initializes all properties of the class.
+            BadHabits = badHabits;
         }
 
         /// <summary>
@@ -42,9 +42,14 @@ namespace AnimalShelter
         /// </returns>
         public override string ToString()
         {
-            // TODO: Put your own code here to make the method return the string specified in the
-            // method description.
-            return "";
+            if (BadHabits == null || BadHabits == "")
+            {
+                return base.ToString() + ", none";
+            }
+            else
+            {
+                return base.ToString() + BadHabits;
+            }
         }
     }
 }

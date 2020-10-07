@@ -20,10 +20,10 @@ namespace AnimalShelter
         /// <param name="dateOfBirth">The date of birth of the animal.</param>
         /// <param name="name">The name of the animal.</param>
         /// <param name="lastWalkDate">The date of the last walk with the dog or null if unknown.</param>
-        public Dog(int chipRegistrationNumber, SimpleDate dateOfBirth,
-                   string name, SimpleDate lastWalkDate)
+        public Dog(int chipRegistrationNumber, SimpleDate dateOfBirth, string name, SimpleDate lastWalkDate)
+            : base(chipRegistrationNumber, dateOfBirth, name)
         {
-            // TODO: Modify the constructor. Make sure it initializes all properties of the class.
+            LastWalkDate = lastWalkDate;
         }
 
         /// <summary>
@@ -40,9 +40,14 @@ namespace AnimalShelter
         /// </returns>
         public override string ToString()
         {
-            // TODO: Put your own code here to make the method return the string specified in the
-            // method description.
-            return "";
+            if (LastWalkDate == null)
+            {
+                return base.ToString() + ", unknown";
+            }
+            else
+            {
+                return base.ToString() + LastWalkDate;
+            }
         }
     }
 }

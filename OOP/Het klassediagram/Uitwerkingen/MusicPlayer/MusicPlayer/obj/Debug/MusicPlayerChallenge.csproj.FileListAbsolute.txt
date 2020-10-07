@@ -12,3 +12,17 @@ C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\t-db2-db01t-joeyoonincx\OOP\klasse
 C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\t-db2-db01t-joeyoonincx\OOP\klassendiagram\MusicPlayer\MusicPlayer\obj\Debug\Interop.MediaPlayer.dll
 C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\t-db2-db01t-joeyoonincx\OOP\klassendiagram\MusicPlayer\MusicPlayer\obj\Debug\Interop.WMPLib.dll
 C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\t-db2-db01t-joeyoonincx\OOP\klassendiagram\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayerChallenge.csproj.ResolveComReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayerChallenge.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayerChallenge.csproj.ResolveComReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Form1.resources
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.PlaylistForm.resources
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayerChallenge.csproj.GenerateResource.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayerChallenge.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Het klassediagram\Uitwerkingen\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb

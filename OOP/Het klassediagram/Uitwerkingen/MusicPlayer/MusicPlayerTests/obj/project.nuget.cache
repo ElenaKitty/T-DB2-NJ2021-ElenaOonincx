@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EuoF39XoTYSLoSO9am4a3fgqU2L8KEJjqd+ay36pMYgIS1onsXNF947+7gaSwp64j/8G0LZvKKmnF/pptxf9cA==",
+  "dgSpecHash": "7qxz7RWlC8Ei2wEVfJ9VCTXikUw+qQHNA0Wb42d0UerfHPWuR0Rg5HZ2I8YI7pwQpJTM/tCEk/Tztchf/Ec2dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\klassendiagram\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj",
+  "projectFilePath": "C:\\Users\\joeyo\\Desktop\\Fontys\\Semester 2 REDO\\T-DB2-NJ2021-JoeyOonincx\\OOP\\Het klassediagram\\Uitwerkingen\\MusicPlayer\\MusicPlayerTests\\MusicPlayerTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joeyo\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\joeyo\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
