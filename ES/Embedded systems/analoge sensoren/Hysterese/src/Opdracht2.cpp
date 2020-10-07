@@ -10,7 +10,6 @@ long duration;
 long distance;
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
 
   pinMode(trigPin, OUTPUT);
@@ -20,6 +19,8 @@ void setup() {
 void loop() 
 {
     afstand();
+    Serial.print("EchoPin: ");
+    Serial.println(analogRead(echoPin);
 }
 
 void afstand()
@@ -32,5 +33,6 @@ void afstand()
 
   distance = duration * 0.034 / 2;
 
- Serial.println(distance);
+  Serial.print("Distance: ");
+  Serial.println(distance);
 }
