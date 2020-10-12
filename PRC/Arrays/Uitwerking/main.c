@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<time.h>
+#include <time.h>
 //Puts every number to zero in the array.
 void ZeroNumber(int * arrayPointer, int arrayLength)
 {
@@ -105,6 +105,40 @@ int CalculateModus(int * arrayPointer, int arrayLength)
     }
     return modus;
 }
+int LinearSearch(int * arrayPointer, int arrayLength, int numberToFind)
+{
+    for(int i = 0; i < arrayLength;i++)
+    {
+        if(numberToFind == arrayPointer[i])
+        {
+            return arrayPointer[i];
+        }
+    }
+    return -1;
+}
+int BinairySearch(int * arrayPointer, int arrayLength, int numberToFind)
+{
+    int locationBinairy = 0;
+    int maximum = 100;
+    int minimum = 0;
+    for(int i =0; i < arrayLength; i++)
+    {
+        int randomNumber = (rand() % maximum - minimum + 1) + minimum;
+        if(numberToFind == randomNumber)
+        {
+            locationBinairy = i;
+        }
+        else if(numberToFind > randomNumber)
+        {
+            minimum = arrayPointer[i] - 1;
+        }
+        else if(numberToFind < randomNumber)
+        {
+            maximum = arrayPointer[i] + 1;
+        }  
+    }
+    return arrayPointer[locationBinairy];
+}
 
 int main(int argc, char *argv[])
 {
@@ -112,9 +146,12 @@ int main(int argc, char *argv[])
     int arrayLength = 5;
     int worstArrayLength = 10;
     int diceArrayLength = 6;
+    int searchArrayLength = 10;
     int numberArray[5];
     int worstArray[10];
-    int diceArray[6];
+    int diceArray[6]; 
+    int searchArray[10];
+
 
     //assignment 2 and 3
     InitArray(numberArray, arrayLength);
@@ -146,7 +183,30 @@ int main(int argc, char *argv[])
     printf("The middle number is %g\n", CalculateMiddle(numberArray, arrayLength));
     printf("The modus is %d\n", CalculateModus(worstArray, worstArrayLength));
 
+    //Assignment 8
+    InitArray(searchArray, searchArrayLength);
+    int location = LinearSearch(searchArray, searchArrayLength, searchArray[rand() % 10]);
+    if(location == -1)
+    {
+        printf("The random number was not found in this sequence.\n");
+    }
+    else
+    {
+        printf("The random number was found at location %d\n", location);
+    }
 
+    //Assignment 9
+    InitArray(searchArray, searchArrayLength);
+    BubbleSort(searchArray, searchArrayLength);
+    int locationBinairy = BinairySearch(searchArray, searchArrayLength, searchArray[rand() % 10]);
+    if(location == -1)
+    {
+        printf("The random number was not found in this sequence.\n");
+    }
+    else
+    {
+        printf("The random number was found at location %d\n", locationBinairy);
+    }
 }
 
 
