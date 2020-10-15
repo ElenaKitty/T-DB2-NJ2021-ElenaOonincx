@@ -20,7 +20,7 @@ void loop()
 {
     afstand();
     Serial.print("EchoPin: ");
-    Serial.println(analogRead(echoPin);
+    Serial.println(analogRead(echoPin));
 }
 
 void afstand()
