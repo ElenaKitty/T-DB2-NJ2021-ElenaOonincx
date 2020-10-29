@@ -1,0 +1,7 @@
+.DS_Store
+**/*.o
+**/*.bak*
+**/*.dSYM
+
+#Ben: ignore for now
+**/momotor
