@@ -1,0 +1,54 @@
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.deps.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.runtimeconfig.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.runtimeconfig.dev.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.AssemblyInfoInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.AssemblyInfo.cs
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csproj.CopyComplete
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\t-oer-oop2-master\Inheritance\AnimalShelter\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.deps.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.runtimeconfig.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.runtimeconfig.dev.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.AssemblyInfoInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.AssemblyInfo.cs
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csproj.CopyComplete
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Inheritance\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.AssemblyInfoInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.AssemblyInfo.cs
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.deps.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.runtimeconfig.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.runtimeconfig.dev.json
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.dll
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalTests.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\bin\Debug\netcoreapp2.1\AnimalShelter.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\OOP code\Abstract & interface\UnitTestProject\obj\Debug\netcoreapp2.1\AnimalTests.csproj.CopyComplete
