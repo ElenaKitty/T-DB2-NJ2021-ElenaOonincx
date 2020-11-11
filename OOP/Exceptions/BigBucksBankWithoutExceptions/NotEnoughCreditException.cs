@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BigBucksBankWithoutExceptions
 {
-    class NotEnoughCreditException : Exception
+    public class NotEnoughCreditException : Exception
     {
         public NotEnoughCreditException()
             :base()
