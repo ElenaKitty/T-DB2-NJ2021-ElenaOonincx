@@ -1,0 +1,9 @@
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\bin\Debug\BigBucksBankWithoutExceptions.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\bin\Debug\BigBucksBankWithoutExceptions.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\bin\Debug\BigBucksBankWithoutExceptions.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\obj\Debug\BigBucksBankWithoutExceptions.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\obj\Debug\BigBucksBankWithoutExceptions.Properties.Resources.resources
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\obj\Debug\BigBucksBankWithoutExceptions.csproj.GenerateResource.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\obj\Debug\BigBucksBankWithoutExceptions.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\obj\Debug\BigBucksBankWithoutExceptions.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\OOP\Exceptions\BigBucksBankWithoutExceptions\obj\Debug\BigBucksBankWithoutExceptions.pdb
