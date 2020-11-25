@@ -1,0 +1,21 @@
+C:\Users\Renata Frenken\source\repos\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\Renata Frenken\source\repos\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\Renata Frenken\source\repos\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\Renata Frenken\source\repos\SocketServer\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+C:\Users\Renata Frenken\source\repos\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\Renata Frenken\source\repos\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\Renata Frenken\source\repos\SocketServer\SocketServer\obj\Debug\SocketServer.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketServer\SocketServer\obj\Debug\SocketServer.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketServer\SocketServer\obj\Debug\SocketServer.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketServer\SocketServer\obj\Debug\SocketServer.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketServer\SocketServer\obj\Debug\SocketServer.pdb
