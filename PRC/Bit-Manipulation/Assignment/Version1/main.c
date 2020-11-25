@@ -2,47 +2,21 @@
 #include <stdint.h>
 #include <string.h>
 #include <math.h>
-char string[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"};
+#include "encryption.h"
+// char string[] = {"de gele kip eet graag zaad"}; //doesnt work 26
+char string[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"}; //works 26
+// char string[] = {"abcdefghijklmnopqrstuvwxyz"}; //works 26
+// char string[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"}; //doesnt work
 int arrayLength = sizeof(string);
 int numbers[sizeof(string)];
 
-void encrypt()
-{
-    //encrypt doormiddel van bitshift.
-    for (int i = 0; i < arrayLength; i++)
-    {
-        numbers[i] = string[i];
-        if(string[i] % 2 == 0)
-        {
-            string[i] >>= 1; //delen door 2
-            numbers[i] = string[i];
-        }
-        else
-        {
-            numbers[i] = numbers[i] / 2 + 1;
-        }
-        string[i] = numbers[i];
-    }
-}
-void decrypt()
-{
-    //decrypt doormiddel van bitshift.
-    for (int i = 0; i < arrayLength; i++)
-    {
-        if(numbers[i] % 2 == 0)
-        {
-            string[i] <<= 1; //vermenigvuldigen met 2
-            numbers[i] = string[i];
-        }
-        else
-        {
-            numbers[i] = numbers[i] * 2 -1;
-        }
-        string[i] = numbers[i];
-    }
-}
+// problems: 
+// doesnt decrypt sentences.
+// Spaces isn't the problem.
+// problem might lay in the characters. 99% chance
 
-//probleem: je raakt bits kwijt door bitshiften. zoek manier om dit terug te halen of alternatieve manier
+//possible solutions:
+//make alphabet encryptor use it to return encrypted or decrypted letters.
 
 int main(void)
 {
@@ -50,7 +24,6 @@ int main(void)
     {
         numbers[i] = string[i];
     }
-    printf("\n");
     //Het principe van de opdracht is om een bepaalde string doormiddel van bitshiften te encrypten
     printf("----------------------------------\n");
     for (int i = 0; i < arrayLength; i++)
@@ -63,7 +36,7 @@ int main(void)
         printf("%d ", numbers[i]); //number waardes voor originele string.
     }
     printf("\n");
-    encrypt();
+    encrypt(arrayLength, numbers, string);
     for (int i = 0; i < arrayLength; i++)
     {
         printf("%c", string[i]); //print de nieuwe string uit
@@ -74,7 +47,7 @@ int main(void)
         printf("%d ", numbers[i]); //number waardes voor nieuwe string.
     }
     printf("\n");
-    decrypt();
+    decrypt(arrayLength, numbers, string);
     for (int i = 0; i < arrayLength; i++)
     {
         printf("%c", string[i]); //print de originele string uit

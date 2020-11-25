@@ -1,6 +1,9 @@
 NAME=main
 
-FILES=main.c
+HEADER_FILES=*.h
+
+FILES=main.c \
+	  encryption.c
 
 CC=gcc
 
