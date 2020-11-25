@@ -1,0 +1,21 @@
+C:\Users\Renata Frenken\source\repos\SocketClient\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\Renata Frenken\source\repos\SocketClient\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\Renata Frenken\source\repos\SocketClient\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\Renata Frenken\source\repos\SocketClient\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+C:\Users\Renata Frenken\source\repos\SocketClient\SocketClient\obj\Debug\SocketClient.csproj.CoreCompileInputs.cache
+C:\Users\Renata Frenken\source\repos\SocketClient\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\Renata Frenken\source\repos\SocketClient\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketClient\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketClient\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketClient\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketClient\SocketClient\obj\Debug\SocketClient.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketClient\SocketClient\obj\Debug\SocketClient.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketClient\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2\t-db-prc2-joey_oonincx\src\ES2 code\SocketClient\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketClient\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketClient\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketClient\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketClient\SocketClient\obj\Debug\SocketClient.csprojAssemblyReference.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketClient\SocketClient\obj\Debug\SocketClient.csproj.CoreCompileInputs.cache
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketClient\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\joeyo\Desktop\Fontys\Semester 2 REDO\T-DB2-NJ2021-JoeyOonincx\ES\Networked_systems\SocketClient\SocketClient\obj\Debug\SocketClient.pdb
