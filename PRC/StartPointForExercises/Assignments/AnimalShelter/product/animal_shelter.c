@@ -13,8 +13,8 @@
 #include "administration.h"
 #include "animal.h"
 #include "file_element.h"
-#include "resource_detector.h"
 #include "terminal_io.h"
+#include "resource_detector.h"
 
 const char* filename = "testFile";
 

@@ -3,6 +3,8 @@
 
 #include "terminal_io.h"
 
+#include "resource_detector.h"
+
 #define MAX_STRLEN 80
 
 static const char* SpeciesNames[] = { "Cat", "Dog", "Guinea pig", "Parrot" };
