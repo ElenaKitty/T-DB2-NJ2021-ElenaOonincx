@@ -8,32 +8,28 @@
 // Note: make sure to set 'resource_detector.h' as the last include.
 #include "resource_detector.h"
 
-int addAnimal(
-    const Animal *animalPtr, Animal *animalArray,
-    size_t animalArrayLength, size_t numberOfAnimalsPresent,
-    size_t *newNumberOfAnimalsPresent)
+int addAnimal(const Animal *animalPtr, Animal *animalArray,size_t animalArrayLength, size_t numberOfAnimalsPresent,size_t *newNumberOfAnimalsPresent)
 {
-	if(animalPtr == NULL || animalArray == NULL)
-	{
-		return -1;
-	}
-	if(animalArrayLength > numberOfAnimalsPresent)
-	{
-		animalArray[numberOfAnimalsPresent] = *animalPtr;
+    if (animalPtr == NULL || animalArray == NULL)
+    {
+        return -1;
+    }
+    if (animalArrayLength > numberOfAnimalsPresent)
+    {
+        animalArray[numberOfAnimalsPresent] = *animalPtr;
         *newNumberOfAnimalsPresent = numberOfAnimalsPresent + 1;
-		return 0;
-	}
+        return 0;
+    }
+    return -1;
 }
 
-int removeAnimal(
-    int animalId, Animal *animalArray,
-    size_t numberOfAnimalsPresent,
-    size_t *newNumberOfAnimalsPresent)
+int removeAnimal(int animalId, Animal *animalArray,size_t numberOfAnimalsPresent,size_t *newNumberOfAnimalsPresent)
 {
-    if(animalArray == NULL)
-	{
-		return -1;
-	}
+    //doesnt shrink the list of animals. but rather copies the one before it.
+    if (animalArray == NULL)
+    {
+        return -1;
+    }
     int removed = 0;
     for (size_t i = 0; i < numberOfAnimalsPresent; i++)
     {
