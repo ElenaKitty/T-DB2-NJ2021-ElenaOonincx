@@ -3,20 +3,12 @@
 #include <string.h>
 #include <math.h>
 #include "encryption.h"
-// char string[] = {"de gele kip eet graag zaad"}; //doesnt work 26
-char string[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"}; //works 26
+char string[] = {"de gele kip eet graag zaad"};//works 26
+// char string[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"}; //works 26
 // char string[] = {"abcdefghijklmnopqrstuvwxyz"}; //works 26
 // char string[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"}; //doesnt work
 int arrayLength = sizeof(string);
-int numbers[sizeof(string)];
-
-// problems: 
-// doesnt decrypt sentences.
-// Spaces isn't the problem.
-// problem might lay in the characters. 99% chance
-
-//possible solutions:
-//make alphabet encryptor use it to return encrypted or decrypted letters.
+uint16_t numbers[sizeof(string)];
 
 int main(void)
 {

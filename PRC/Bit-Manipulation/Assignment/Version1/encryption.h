@@ -1,8 +1,11 @@
 #ifndef ENCRYPT_H
 #define ENCRYPT_H
-
-void encrypt(int arrayLength, int numbers[], char string[]);
-void decrypt(int arrayLength, int numbers[], char string[]);
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+#include <math.h>
+void encrypt(int arrayLength, uint16_t numbers[], char string[]);
+void decrypt(int arrayLength, uint16_t numbers[], char string[]);
 
 
 #endif

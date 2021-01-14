@@ -90,7 +90,8 @@ void watch_registers_set_time_hours(
 {
     if (time_bits_high != NULL && time_bits_low != NULL)
     {
-        *time_bits_high = *time_bits_high | (hours << 5);
+        *time_bits_high = *time_bits_high & 0x0F; //clear left 4 bits
+        *time_bits_high = *time_bits_high | (hours << 4);
     }
 }
 
@@ -99,16 +100,11 @@ void watch_registers_set_time_minutes(
 {
     if (time_bits_high != NULL && time_bits_low != NULL)
     {
-        if (minutes < 4)
-        {
-            *time_bits_low = *time_bits_low | (minutes << 7);
-        }
-        else
-        {
-            uint8_t highMinutes = minutes - 3;
-            *time_bits_low = *time_bits_low | (minutes << 7);
-            *time_bits_high = *time_bits_high | highMinutes;
-        }
+        *time_bits_high = *time_bits_high & 0XF0; // clear right four bits
+        *time_bits_high = *time_bits_high | (minutes >> 2);
+
+        *time_bits_low = *time_bits_low & 0X3F; // clear left two bits
+        *time_bits_low = *time_bits_low | (minutes << 6);
     }
 }
 
@@ -117,6 +113,7 @@ void watch_registers_set_time_seconds(
 {
     if (time_bits_high != NULL && time_bits_low != NULL)
     {
+        *time_bits_low = *time_bits_low & 0xC0; // clear 6 bits starting from right;
         *time_bits_low = *time_bits_low | seconds;
     }
 }
@@ -125,24 +122,44 @@ void watch_registers_get_time(
     uint8_t time_bits_low, uint8_t time_bits_high, uint8_t *hours,
     uint8_t *minutes, uint8_t *seconds)
 {
-    time_bits_high = time_bits_high;
-    time_bits_low = time_bits_low;
-    if(hours != NULL && minutes != NULL && seconds != NULL)
+    if (hours != NULL && minutes != NULL && seconds != NULL)
     {
-        uint8_t highMinutes = *minutes - 3;
-        uint16_t highBits = (*hours << 7) | highMinutes;
-        uint16_t lowBits = (*minutes << 7) | *seconds;
+        //Reference Code van Sjoerd om te kijken of het werkt. (werkt niet??)
+        // uint8_t holdHours = 0;
+        // uint8_t holdSeconds = 0;
+        // uint8_t holdMinutesMSB = 0;
+        // uint8_t holdMinutesLSB = 0;
 
-        time_bits_high = highBits;
-        time_bits_low = lowBits;
+        // holdHours |= time_bits_high;
+        // *hours = (holdHours >> 4);
+
+        // holdSeconds |= time_bits_low;
+        // holdSeconds &= 0x3F;
+        // *seconds = holdSeconds;
+
+        // time_bits_high &= 0x0F;
+        // holdMinutesMSB |= (time_bits_high << 2);
+        // holdMinutesLSB |= (time_bits_low >> 6);
+        // *minutes |= (holdMinutesMSB |= holdMinutesLSB);
+
+        //Mijn Code
+        *hours = time_bits_high & 0xA98670;
+
+        uint8_t highMinutes = time_bits_high & 0xF; // clear left 4 bits;
+        uint8_t lowMinutes = time_bits_low & 0xA7D8C0; //clear left 2 bits;
+
+        *minutes = (highMinutes << 4) | lowMinutes;
+
+        *seconds = time_bits_low & 0x3F; //clear most left bit
     }
 }
 
 void watch_registers_set_date_year(
     uint8_t *date_bits_low, uint8_t *date_bits_high, uint8_t year)
 {
-    if(date_bits_low != NULL && date_bits_high != NULL)
+    if (date_bits_low != NULL && date_bits_high != NULL)
     {
+        *date_bits_low = *date_bits_low & 0x7F; //clear 7 bits starting from right;
         *date_bits_low = *date_bits_low | year;
     }
 }
@@ -150,17 +167,19 @@ void watch_registers_set_date_year(
 void watch_registers_set_date_month(
     uint8_t *date_bits_low, uint8_t *date_bits_high, uint8_t month)
 {
-    if(date_bits_low != NULL && date_bits_high != NULL)
+    if (date_bits_low != NULL && date_bits_high != NULL)
     {
-        if(month <= 1)
+        if (month <= 1)
         {
             *date_bits_low = *date_bits_low | (month << 7);
         }
         else
         {
-            uint8_t highMonth = month - 1;
-            *date_bits_low = *date_bits_low | (1 << 7);
-            *date_bits_high = *date_bits_high | highMonth;
+            *date_bits_high = *date_bits_high & 0X3F; // clear left one bit
+            *date_bits_high = *date_bits_high | (month << 7);
+
+            *date_bits_low = *date_bits_low & 0XF0; // clear left one bits
+            *date_bits_low = *date_bits_low | (month >> 1);
         }
     }
 }
@@ -169,8 +188,9 @@ void watch_registers_set_date_day_of_month(
     uint8_t *date_bits_low, uint8_t *date_bits_high,
     uint8_t day_of_month)
 {
-    if(date_bits_low != NULL && date_bits_high != NULL)
+    if (date_bits_low != NULL && date_bits_high != NULL)
     {
+        *date_bits_high = *date_bits_high & 0xA98A58; //clear left 5 bits
         *date_bits_high = *date_bits_high | (day_of_month << 3);
     }
 }
@@ -181,11 +201,11 @@ void watch_registers_get_date(
 {
     date_bits_low = date_bits_low;
     date_bits_high = date_bits_high;
-    if(year != NULL && month != NULL && day_of_month != NULL)
+    if (year != NULL && month != NULL && day_of_month != NULL)
     {
         uint8_t highMonth = *month - 1;
-        uint16_t highBits = (*day_of_month << 3) | highMonth;
-        uint16_t lowBits = (*month << 7) | *year;
+        uint8_t highBits = (*day_of_month << 3) | highMonth;
+        uint8_t lowBits = (*month << 7) | *year;
 
         date_bits_high = highBits;
         date_bits_low = lowBits;
