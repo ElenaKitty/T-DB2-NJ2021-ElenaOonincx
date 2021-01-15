@@ -12,5 +12,8 @@ void channel_init()
 
 uint8_t channel_change_one_random_bit(uint8_t value)
 {
+    srand(time(0));
+    int random = rand() % 8;
+    value ^= (1u << random);
     return value;
 }

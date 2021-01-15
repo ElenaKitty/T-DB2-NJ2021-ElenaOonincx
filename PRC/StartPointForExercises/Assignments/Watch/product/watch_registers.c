@@ -124,25 +124,6 @@ void watch_registers_get_time(
 {
     if (hours != NULL && minutes != NULL && seconds != NULL)
     {
-        //Reference Code van Sjoerd om te kijken of het werkt. (werkt niet??)
-        // uint8_t holdHours = 0;
-        // uint8_t holdSeconds = 0;
-        // uint8_t holdMinutesMSB = 0;
-        // uint8_t holdMinutesLSB = 0;
-
-        // holdHours |= time_bits_high;
-        // *hours = (holdHours >> 4);
-
-        // holdSeconds |= time_bits_low;
-        // holdSeconds &= 0x3F;
-        // *seconds = holdSeconds;
-
-        // time_bits_high &= 0x0F;
-        // holdMinutesMSB |= (time_bits_high << 2);
-        // holdMinutesLSB |= (time_bits_low >> 6);
-        // *minutes |= (holdMinutesMSB |= holdMinutesLSB);
-
-        //Mijn Code
         *hours = time_bits_high & 0xA98670;
 
         uint8_t highMinutes = time_bits_high & 0xF; // clear left 4 bits;
