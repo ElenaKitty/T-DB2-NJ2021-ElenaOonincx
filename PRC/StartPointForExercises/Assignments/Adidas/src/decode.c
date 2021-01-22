@@ -8,8 +8,9 @@
 
 uint8_t decode_combine_nibbles(uint8_t high, uint8_t low)
 {
-    uint8_t fullBit;
-    fullBit = (fullBit | (high & 0x78) << 4); //01111000 shift result 4 to left for first 4 bits
+    uint8_t fullBit = 0;
+    fullBit = fullBit | (high & 0x78);
+    fullBit = (fullBit << 4); //01111000 shift result 4 to left for first 4 bits
     fullBit = fullBit | (low & 0x78);         //01111000
 
     return fullBit;
@@ -25,9 +26,9 @@ void decode_byte(uint8_t in, uint8_t *nibble)
     int dNumbers = 0;
     int partNumbers = 0;
 
-    int group0; //p0 d0 d1 d2 00111001
-    int group1; //p1 d0 d1 d3 01011010
-    int group2; //p2 d1 d2 d3 01110100
+    int group0 = 0; //p0 d0 d1 d2 00111001
+    int group1 = 0; //p1 d0 d1 d3 01011010
+    int group2 = 0; //p2 d1 d2 d3 01110100
 
 
 
@@ -37,47 +38,47 @@ void decode_byte(uint8_t in, uint8_t *nibble)
     {
         if (i == 1)
         {
-            group0++;
+            group0 = group0 + 1;
         }
         if (i == 2)
         {
-            group1++;
+            group1 = group1 + 1;
         }
         if (i == 3)
         {
-            group2++;
+            group2 = group2 + 1;
         }
         if (i == 4)
         {
-            group0++;
-            group1++;
+            group0 = group0 + 1;
+            group1 = group1 + 1;
         }
         if (i == 5)
         {
-            group0++;
-            group1++;
-            group2++;
+            group0 = group0 + 1;
+            group1 = group1 + 1;
+            group2 = group2 + 1;
         }
         if (i == 6)
         {
-            group0++;
-            group2++;
+            group0 = group0 + 1;
+            group2 = group2 + 1;
         }
         if (i == 7)
         {
-            group1++;
-            group2++;
+            group1 = group1 + 1;
+            group2 = group2 + 1;
         }
         if (i < 4)
         {
             if (in & (1 << i))
             {
-                partNumbers++;
+                partNumbers = partNumbers + 1;;
             }
         }
         if (in & (1 << i))
         {
-            dNumbers++;
+            dNumbers = dNumbers + 1;
         }
     }
 

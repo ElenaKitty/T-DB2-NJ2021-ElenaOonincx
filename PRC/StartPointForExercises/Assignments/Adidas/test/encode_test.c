@@ -47,6 +47,7 @@ int main (int argc, char * argv[])
     UnityBegin();
 
     MY_RUN_TEST(test_encode);
+    MY_RUN_TEST(encode_get_nibbles_Test);
 
     return UnityEnd();
 }
