@@ -23,7 +23,21 @@ void test_encode(void)
 {
 	
 }
+void encode_get_nibbles_Test(void)
+{
+    uint8_t value = 10;
+    uint8_t* low = 0;
+    uint8_t* high = 0;
 
+    uint8_t* lowExpected = *low = value & 0xF; //00001111 clear left 4 bits
+             lowExpected = (*low << 3);
+    uint8_t* highExpected = value & 0x78; 
+
+    encode_get_nibbles(value, low, high);
+
+    TEST_ASSERT_EQUAL(lowExpected, low);
+    TEST_ASSERT_EQUAL(highExpected, high);
+}
 int main (int argc, char * argv[])
 {
 	if (argc > 1)
